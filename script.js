@@ -27,8 +27,7 @@ function toRoman(num) {
     return roman;
 }
 
-
 console.log(toRoman(14));  
 console.log(toRoman(798));  
 
-module.exports = convertToRoman
+module.exports = toRoman; 
