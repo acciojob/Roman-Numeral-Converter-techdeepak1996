@@ -17,8 +17,8 @@ function convertToRoman(num) {
             result += symbol;
             num -= value;
         }
-        if (i % 2 !== 0 && i !== 0) {  // change here
-            const nextIndex = i - 1;  // and here
+        if (i % 2 !== 0 && i !== 0) { 
+            const nextIndex = i - 1;  
             const [nextSymbol, nextValue] = obj[nextIndex];
             if (num >= value - nextValue) {
                 result += nextSymbol + symbol;
